@@ -562,7 +562,7 @@
     // While testing, keep this line to use Paddle's sandbox environment.
     // DELETE (or comment out) this line before going live.
     // ----------------------------------------------------------------
-    Paddle.Environment.set("sandbox");
+    // Paddle.Environment.set("sandbox");
 
     // ----------------------------------------------------------------
     // STEP 2 — Client-side token
@@ -570,7 +570,7 @@
     // and paste your client-side token below (safe to publish).
     // ----------------------------------------------------------------
     Paddle.Initialize({
-      token: "YOUR_PADDLE_CLIENT_SIDE_TOKEN" // <-- REPLACE with your Paddle client-side token
+      token: "live_1a5bd27ca34bec3ed9268922c8f"
     });
   } catch (e) {
     console.warn("Paddle.js did not load yet:", e);
@@ -581,7 +581,7 @@
   // Go to Paddle Dashboard > Catalog > Products, create your $8
   // ebook product + price, then paste the Price ID below.
   // ----------------------------------------------------------------
-  const EBOOK_PRICE_ID = "YOUR_PADDLE_PRICE_ID"; // <-- REPLACE with your Paddle Price ID (starts with "pri_")
+  const EBOOK_PRICE_ID = "pri_01m23j3t7e01a08q9rtr6pkgh5";
 
   // ----------------------------------------------------------------
   // STEP 4 — Success redirect
